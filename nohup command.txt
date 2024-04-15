@@ -1,0 +1,5 @@
+run: nohup python main.py > output.log 2>&1 &
+
+check: tail -f output.log
+
+kill: pkill -P PID
