@@ -3,14 +3,11 @@ from torch.utils.data import DataLoader
 from torchvision.transforms import Compose
 import flwr
 from flwr.client import NumPyClient
-# from dataset import apply_transforms, 
 from dataset import get_dataset_with_partitions
 from model import get_model, set_parameters, train
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '2,3,4'
-
-
+os.environ['CUDA_VISIBLE_DEVICES'] = '3,4'
 
 class FedViTClient(NumPyClient):
     def __init__(self, trainset, save_path: str = "model/"):
@@ -40,14 +37,15 @@ class FedViTClient(NumPyClient):
         set_parameters(self.model, parameters)
         batch_size = config["batch_size"]
         lr = config["lr"]
-        # self.trainset.transforms = Compose(apply_transforms()) # Add 1
         trainloader = DataLoader(
             self.trainset, batch_size=batch_size, num_workers=2, shuffle=True
         )
         optimizer = torch.optim.Adam(self.model.parameters(), lr=lr)
         avg_train_loss = train(
-            self.model, trainloader, optimizer, epochs=1, device=self.device
+            self.model, trainloader, optimizer, epochs=10, device=self.device
         )
+        string = f"Client is training. Average training loss: {avg_train_loss}"
+        save_str(string)
 
         self.save_model()
 
@@ -57,17 +55,17 @@ class FedViTClient(NumPyClient):
             {"train_loss": avg_train_loss},
         )
 
-
-# Downloads and partition dataset
-train_dataset, _ = get_dataset_with_partitions(num_partitions=20)
+train_dataset, _ = get_dataset_with_partitions(num_partitions=5)
 
 
 def client_fn(cid: str):
     """Return a FedViTClient that trains with the cid-th data partition."""
+    
+    string = f"Client {cid} is training."
+    save_str(string)
 
     trainset_for_this_client = train_dataset[int(cid)]
-    # trainset = apply_transforms(trainset_for_this_client)
-
+    
     save_path = "model_saved/"
     return FedViTClient(trainset_for_this_client, save_path=save_path).to_client()
 
@@ -76,7 +74,6 @@ def save_str(string):
     with open(file_path, 'a') as file:
         file.write(string + '\n')  
 
-# To be used with Flower Next
 app = flwr.client.ClientApp(
     client_fn=client_fn,
 )

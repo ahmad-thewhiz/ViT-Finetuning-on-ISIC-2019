@@ -33,19 +33,16 @@ def get_dataset_with_partitions(num_partitions: int, train_ratio=0.9):
         ]
     )
 
-    # Load dataset
     dataset = ISICDataset(
         csv_file="/home/dgxuser16/NTL/mccarthy/ahmad/ihpc/vit-finetune-copy2/ISIC/ISIC_2019_Training_GroundTruth.csv",
         img_dir="/home/dgxuser16/NTL/mccarthy/ahmad/ihpc/vit-finetune-copy2/ISIC/ISIC_2019_Training_Input/ISIC_2019_Training_Input",
         transform=transform
     )
 
-    # Split dataset into train and test sets
     train_size = int(len(dataset) * train_ratio)
     test_size = len(dataset) - train_size
     train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
-
-    # Split training dataset into partitions
+    
     partition_size = len(train_dataset) // num_partitions
     partitions = []
     for i in range(num_partitions):
@@ -55,41 +52,7 @@ def get_dataset_with_partitions(num_partitions: int, train_ratio=0.9):
 
     return partitions, test_dataset
 
-def custom_collate_fn(batch):
-    images, labels = zip(*batch)
-    labels = torch.stack(labels)  # Ensure labels are already tensors
-    return list(images), labels
-
 def save_str(string):
     file_path = "dataset.txt"
     with open(file_path, 'a') as file:
         file.write(string + '\n')  
-
-# def apply_eval_transforms(batch):
-#     transforms = Compose([
-#         Resize((256, 256)),
-#         CenterCrop((224, 224)),
-#         ToTensor(),
-#         Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
-#     ])
-#     images, labels = [], []
-#     for obj in batch:
-#         images.append(obj[0])
-#         labels.append(obj[1])
-#     transformed_images = [transforms(image) for image in images]
-#     return torch.stack(transformed_images), labels
-
-# def apply_transforms(batch):
-#     transforms = Compose(
-#         [
-#             RandomResizedCrop((224, 224)),
-#             ToTensor(),
-#             Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
-#         ]
-#     )
-#     images, labels = [], []
-#     for obj in batch:
-#         images.append(obj[0])
-#         labels.append(obj[1])
-#     transformed_images = [transforms(image) for image in images]
-#     return torch.stack(transformed_images), labels
