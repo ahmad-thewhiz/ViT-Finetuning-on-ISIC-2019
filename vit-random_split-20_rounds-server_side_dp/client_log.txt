@@ -1,0 +1,301 @@
+Client 2 is training.
+Client 1 is training.
+Client 0 is training.
+Client 4 is training.
+Client 3 is training.
+Client 2 is training.
+Client is training. Average training loss: 0.3350648976098268
+Client is training. Average training loss: 0.3295562929189427
+Client is training. Average training loss: 0.3306236434515285
+Client is training. Average training loss: 0.3301915447303639
+Client is training. Average training loss: 0.3217838001100993
+Client 1 is training.
+Client 3 is training.
+Client 4 is training.
+Client 2 is training.
+Client 0 is training.
+Client 4 is training.
+Client 3 is training.
+Client 2 is training.
+Client 1 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.32635761808847147
+Client is training. Average training loss: 0.3236337547652892
+Client is training. Average training loss: 0.3194973986105242
+Client is training. Average training loss: 0.32370597335937623
+Client is training. Average training loss: 0.3080742499961183
+Client 2 is training.
+Client 0 is training.
+Client 4 is training.
+Client 1 is training.
+Client 3 is training.
+Client 1 is training.
+Client 4 is training.
+Client 2 is training.
+Client 0 is training.
+Client 3 is training.
+Client is training. Average training loss: 0.3207311650290912
+Client is training. Average training loss: 0.31392246662793216
+Client is training. Average training loss: 0.31171350737573417
+Client is training. Average training loss: 0.3213279578563408
+Client is training. Average training loss: 0.3183319994400925
+Client 2 is training.
+Client 0 is training.
+Client 4 is training.
+Client 1 is training.
+Client 3 is training.
+Client 1 is training.
+Client 2 is training.
+Client 0 is training.
+Client 4 is training.
+Client 3 is training.
+Client is training. Average training loss: 0.30985081332468695
+Client is training. Average training loss: 0.31633449548756576
+Client is training. Average training loss: 0.31113196317288844
+Client is training. Average training loss: 0.31503719899668803
+Client is training. Average training loss: 0.3148063181532603
+Client 0 is training.
+Client 4 is training.
+Client 2 is training.
+Client 3 is training.
+Client 1 is training.
+Client 0 is training.
+Client 4 is training.
+Client 3 is training.
+Client 2 is training.
+Client 1 is training.
+Client is training. Average training loss: 0.30547693599805686
+Client is training. Average training loss: 0.3068197856882982
+Client is training. Average training loss: 0.3185746092240745
+Client is training. Average training loss: 0.3179435461653192
+Client is training. Average training loss: 0.3110124152954415
+Client 2 is training.
+Client 1 is training.
+Client 3 is training.
+Client 4 is training.
+Client 0 is training.
+Client 3 is training.
+Client 2 is training.
+Client 4 is training.
+Client 1 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.3111033053993596
+Client is training. Average training loss: 0.32503099542779795
+Client is training. Average training loss: 0.3177966037456876
+Client is training. Average training loss: 0.30999553962968857
+Client is training. Average training loss: 0.30947246834557585
+Client 4 is training.
+Client 0 is training.
+Client 3 is training.
+Client 2 is training.
+Client 1 is training.
+Client 4 is training.
+Client 2 is training.
+Client 0 is training.
+Client 1 is training.
+Client 3 is training.
+Client is training. Average training loss: 0.31758426690261404
+Client is training. Average training loss: 0.31872209579725086
+Client is training. Average training loss: 0.305385063455325
+Client is training. Average training loss: 0.31616183844805285
+Client is training. Average training loss: 0.31667516946697594
+Client 1 is training.
+Client 4 is training.
+Client 2 is training.
+Client 0 is training.
+Client 3 is training.
+Client 2 is training.
+Client 1 is training.
+Client 4 is training.
+Client 3 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.3101939448509322
+Client is training. Average training loss: 0.3037175001359451
+Client is training. Average training loss: 0.31867886134868345
+Client is training. Average training loss: 0.3204059281913968
+Client is training. Average training loss: 0.32184894945654835
+Client 3 is training.
+Client 0 is training.
+Client 2 is training.
+Client 1 is training.
+Client 4 is training.
+Client 2 is training.
+Client 3 is training.
+Client 4 is training.
+Client 1 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.31120882625069046
+Client is training. Average training loss: 0.3130564430023007
+Client is training. Average training loss: 0.32008651758572376
+Client is training. Average training loss: 0.3076267925905181
+Client is training. Average training loss: 0.3144599914520388
+Client 4 is training.
+Client 1 is training.
+Client 2 is training.
+Client 3 is training.
+Client 0 is training.
+Client 1 is training.
+Client 2 is training.
+Client 0 is training.
+Client 4 is training.
+Client 3 is training.
+Client is training. Average training loss: 0.3190814360615847
+Client is training. Average training loss: 0.3180110532829499
+Client is training. Average training loss: 0.3103900517886266
+Client is training. Average training loss: 0.31262585491322037
+Client is training. Average training loss: 0.31937330278496334
+Client 4 is training.
+Client 0 is training.
+Client 3 is training.
+Client 2 is training.
+Client 1 is training.
+Client 3 is training.
+Client 0 is training.
+Client 1 is training.
+Client 4 is training.
+Client 2 is training.
+Client is training. Average training loss: 0.3117475825186063
+Client is training. Average training loss: 0.3126105118688361
+Client is training. Average training loss: 0.3099913508380356
+Client is training. Average training loss: 0.31131552692789305
+Client is training. Average training loss: 0.3075030316266564
+Client 0 is training.
+Client 2 is training.
+Client 1 is training.
+Client 3 is training.
+Client 4 is training.
+Client 4 is training.
+Client 3 is training.
+Client 0 is training.
+Client 1 is training.
+Client 2 is training.
+Client is training. Average training loss: 0.3100065904039898
+Client is training. Average training loss: 0.31240084964873177
+Client is training. Average training loss: 0.31123649589152946
+Client is training. Average training loss: 0.3033759718237657
+Client is training. Average training loss: 0.3087923274498474
+Client 0 is training.
+Client 3 is training.
+Client 2 is training.
+Client 4 is training.
+Client 1 is training.
+Client 2 is training.
+Client 1 is training.
+Client 0 is training.
+Client 4 is training.
+Client 3 is training.
+Client is training. Average training loss: 0.3076924535293905
+Client is training. Average training loss: 0.31058576238148417
+Client is training. Average training loss: 0.31854722810179725
+Client is training. Average training loss: 0.31115976579873744
+Client is training. Average training loss: 0.3145689966118002
+Client 2 is training.
+Client 4 is training.
+Client 3 is training.
+Client 1 is training.
+Client 0 is training.
+Client 4 is training.
+Client 3 is training.
+Client 0 is training.
+Client 2 is training.
+Client 1 is training.
+Client is training. Average training loss: 0.3156656715875635
+Client is training. Average training loss: 0.30631996233250713
+Client is training. Average training loss: 0.31607154181817576
+Client is training. Average training loss: 0.3119717849972487
+Client is training. Average training loss: 0.32022949063668515
+Client 2 is training.
+Client 4 is training.
+Client 3 is training.
+Client 0 is training.
+Client 1 is training.
+Client 1 is training.
+Client 2 is training.
+Client 3 is training.
+Client 0 is training.
+Client 4 is training.
+Client is training. Average training loss: 0.3163560626557895
+Client is training. Average training loss: 0.3185539777577357
+Client is training. Average training loss: 0.3032366708789394
+Client is training. Average training loss: 0.3087784019748231
+Client is training. Average training loss: 0.31857734946208394
+Client 4 is training.
+Client 1 is training.
+Client 3 is training.
+Client 0 is training.
+Client 2 is training.
+Client 4 is training.
+Client 1 is training.
+Client 2 is training.
+Client 3 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.313619880626599
+Client is training. Average training loss: 0.30039100681425085
+Client is training. Average training loss: 0.3211297059036565
+Client is training. Average training loss: 0.3140744858402039
+Client is training. Average training loss: 0.30674210950506453
+Client 0 is training.
+Client 3 is training.
+Client 2 is training.
+Client 1 is training.
+Client 4 is training.
+Client 2 is training.
+Client 3 is training.
+Client 4 is training.
+Client 1 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.30983630664286255
+Client is training. Average training loss: 0.3149480470714522
+Client is training. Average training loss: 0.3039824859625584
+Client is training. Average training loss: 0.3170199012535144
+Client is training. Average training loss: 0.310251340131538
+Client 1 is training.
+Client 3 is training.
+Client 0 is training.
+Client 4 is training.
+Client 2 is training.
+Client 3 is training.
+Client 2 is training.
+Client 4 is training.
+Client 1 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.31587188769570934
+Client is training. Average training loss: 0.31916965567496003
+Client is training. Average training loss: 0.2994577513955586
+Client is training. Average training loss: 0.30843278268495433
+Client is training. Average training loss: 0.31642948620993905
+Client 1 is training.
+Client 3 is training.
+Client 0 is training.
+Client 4 is training.
+Client 2 is training.
+Client 1 is training.
+Client 2 is training.
+Client 4 is training.
+Client 3 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.312873274629613
+Client is training. Average training loss: 0.3071816508451993
+Client is training. Average training loss: 0.32871105056820493
+Client is training. Average training loss: 0.3038673627062208
+Client is training. Average training loss: 0.32168503099605267
+Client 3 is training.
+Client 0 is training.
+Client 4 is training.
+Client 1 is training.
+Client 2 is training.
+Client 1 is training.
+Client 4 is training.
+Client 2 is training.
+Client 3 is training.
+Client 0 is training.
+Client is training. Average training loss: 0.3163420806562914
+Client is training. Average training loss: 0.3207033695179822
+Client is training. Average training loss: 0.3161771933795637
+Client is training. Average training loss: 0.3103938183457224
+Client is training. Average training loss: 0.32243635417863137
+Client 4 is training.
+Client 2 is training.
+Client 1 is training.
+Client 0 is training.
+Client 3 is training.
