@@ -8,6 +8,8 @@ import numpy as np
 from dataset import get_dataset_with_partitions
 from model import get_model, set_parameters, test
 
+from flwr.server.strategy import DifferentialPrivacyServerSideFixedClipping
+
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3,4'
 
@@ -72,7 +74,22 @@ strategy = fl.server.strategy.FedAvg(
     evaluate_fn=get_evaluate_fn(centralized_testset),  # Global evaluation function
 )
 
+noise_multiplier = 1.0
+clipping_norm = 0.5
+num_sampled_clients = 10
+
+dp_strategy = DifferentialPrivacyServerSideFixedClipping(
+    strategy,
+    noise_multiplier,
+    clipping_norm,
+    num_sampled_clients,
+)
+
 app = fl.server.ServerApp(
     config=fl.server.ServerConfig(num_rounds=3),
-    strategy=strategy,
+    strategy=dp_strategy,
 )
+
+#  The noise multiplier determines the amount of Gaussian noise that will be added to the aggregated updates from clients before they are applied to update the global model. This is a key parameter for ensuring differential privacy.
+# The clipping norm is used to limit the influence of any single data point or client update on the global model, which is crucial for the privacy guarantees of differential privacy.
+# This parameter specifies how many clients are randomly selected to participate in each round of training. It is crucial for implementing differential privacy in a federated setting.

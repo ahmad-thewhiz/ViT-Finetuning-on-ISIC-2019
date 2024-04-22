@@ -34,11 +34,10 @@ def train(net, trainloader, optimizer, epochs, device):
             optimizer.zero_grad()
             loss = criterion(net(images), labels_new)
             avg_loss += loss.item() / labels.shape[0]
-            string = f"Loss: {loss}\nAverage Loss:{avg_loss}\n"
-            save_str(string, "model_train.txt")
             loss.backward()
             optimizer.step()
-
+    string = f"Average Loss:{avg_loss}\n"
+    save_str(string, "model_train.txt")
     return avg_loss / len(trainloader)
 
 

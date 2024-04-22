@@ -34,8 +34,8 @@ def get_dataset_with_partitions(num_partitions: int, train_ratio=0.9):
     )
 
     dataset = ISICDataset(
-        csv_file="/home/dgxuser16/NTL/mccarthy/ahmad/ihpc/vit-finetune-copy2/ISIC/ISIC_2019_Training_GroundTruth.csv",
-        img_dir="/home/dgxuser16/NTL/mccarthy/ahmad/ihpc/vit-finetune-copy2/ISIC/ISIC_2019_Training_Input/ISIC_2019_Training_Input",
+        csv_file="/home/dgxuser16/NTL/mccarthy/ahmad/ihpc/ISIC/ISIC_2019_Training_GroundTruth.csv",
+        img_dir="/home/dgxuser16/NTL/mccarthy/ahmad/ihpc/ISIC/ISIC_2019_Training_Input/ISIC_2019_Training_Input",
         transform=transform
     )
 
