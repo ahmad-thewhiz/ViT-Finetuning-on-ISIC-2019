@@ -1,0 +1,400 @@
+Average Loss:47.24382359950493
+
+
+
+Average Loss:47.76135434226736
+
+
+
+Average Loss:47.7252190738606
+
+
+
+Average Loss:47.61194778935363
+
+
+
+Average Loss:46.860367653022216
+
+
+
+Average Loss:46.46868872324771
+
+
+
+Average Loss:44.92300396043187
+
+
+
+Average Loss:45.962005092607185
+
+
+
+Average Loss:45.334909812609354
+
+
+
+Average Loss:45.482943676970905
+
+
+
+Average Loss:44.21021041857699
+
+
+
+Average Loss:45.452036617104625
+
+
+
+Average Loss:44.790854181721805
+
+
+
+Average Loss:45.277207983347274
+
+
+
+Average Loss:44.117574837679676
+
+
+
+Average Loss:43.20441707891102
+
+
+
+Average Loss:45.79558791760355
+
+
+
+Average Loss:45.7082083934918
+
+
+
+Average Loss:45.04132140394958
+
+
+
+Average Loss:45.226948686254524
+
+
+
+Average Loss:45.36334816763798
+
+
+
+Average Loss:44.80808577116797
+
+
+
+Average Loss:44.104104930100334
+
+
+
+Average Loss:44.57907822222138
+
+
+
+Average Loss:44.69272363521159
+
+
+
+Average Loss:45.679246085230254
+
+
+
+Average Loss:45.10725624623399
+
+
+
+Average Loss:43.785305659379816
+
+
+
+Average Loss:44.95671655436357
+
+
+
+Average Loss:43.833513292483985
+
+
+
+Average Loss:45.947057592806715
+
+
+
+Average Loss:45.20333504967173
+
+
+
+Average Loss:46.03343058718989
+
+
+
+Average Loss:43.7210608137461
+
+
+
+Average Loss:45.61240302054211
+
+
+
+Average Loss:46.50600612697502
+
+
+
+Average Loss:44.82810351805141
+
+
+
+Average Loss:45.293277280839774
+
+
+
+Average Loss:44.77067778011164
+
+
+
+Average Loss:45.21911494965281
+
+
+
+Average Loss:44.359586065386736
+
+
+
+Average Loss:44.66871502869488
+
+
+
+Average Loss:45.99486664428064
+
+
+
+Average Loss:43.18659996266167
+
+
+
+Average Loss:44.61664850149924
+
+
+
+Average Loss:44.744761041644956
+
+
+
+Average Loss:45.1377779484416
+
+
+
+Average Loss:43.285613449538744
+
+
+
+Average Loss:44.809348722536335
+
+
+
+Average Loss:46.70969643344481
+
+
+
+Average Loss:43.653979067566496
+
+
+
+Average Loss:45.02120676428701
+
+
+
+Average Loss:44.42214290701838
+
+
+
+Average Loss:45.366969800274816
+
+
+
+Average Loss:44.86407263881216
+
+
+
+Average Loss:43.39992859093472
+
+
+
+Average Loss:46.01711266528194
+
+
+
+Average Loss:45.41435401897658
+
+
+
+Average Loss:44.12823690669611
+
+
+
+Average Loss:46.14759012491753
+
+
+
+Average Loss:42.50664680637419
+
+
+
+Average Loss:43.777303678542374
+
+
+
+Average Loss:44.42267843407268
+
+
+
+Average Loss:44.27167166284669
+
+
+
+Average Loss:44.55038802440588
+
+
+
+Average Loss:45.86593332147846
+
+
+
+Average Loss:45.52924008774297
+
+
+
+Average Loss:45.18236999837682
+
+
+
+Average Loss:45.691919707227505
+
+
+
+Average Loss:46.458279869084556
+
+
+
+Average Loss:45.292156951885445
+
+
+
+Average Loss:44.02208294458686
+
+
+
+Average Loss:44.322407818088934
+
+
+
+Average Loss:45.24540770190458
+
+
+
+Average Loss:44.477543935552234
+
+
+
+Average Loss:44.85837446690228
+
+
+
+Average Loss:45.69031936089125
+
+
+
+Average Loss:46.31772456473361
+
+
+
+Average Loss:45.44769389424473
+
+
+
+Average Loss:44.33284704073643
+
+
+
+Average Loss:45.34750456740969
+
+
+
+Average Loss:43.8112349593391
+
+
+
+Average Loss:43.94132896959782
+
+
+
+Average Loss:44.58906242568046
+
+
+
+Average Loss:44.22438663247352
+
+
+
+Average Loss:44.91926510268822
+
+
+
+Average Loss:45.570008140413414
+
+
+
+Average Loss:46.03592779636383
+
+
+
+Average Loss:44.280367780725165
+
+
+
+Average Loss:45.364684654989595
+
+
+
+Average Loss:43.615627493988725
+
+
+
+Average Loss:44.77350950567051
+
+
+
+Average Loss:44.85988718066364
+
+
+
+Average Loss:43.576604141636444
+
+
+
+Average Loss:44.864987925067545
+
+
+
+Average Loss:44.67646055072546
+
+
+
+Average Loss:45.141847148413454
+
+
+
+Average Loss:44.81170621292447
+
+
+
+Average Loss:45.32229967700939
+
+
+
+Average Loss:44.644461911544205
+
+
+

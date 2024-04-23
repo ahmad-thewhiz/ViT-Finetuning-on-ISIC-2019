@@ -1,0 +1,251 @@
+nohup: ignoring input
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:242: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  interpolation: int = Image.BILINEAR,
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:288: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  interpolation: int = Image.NEAREST,
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:321: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  interpolation: int = Image.BICUBIC,
+[92mINFO [0m:      Starting Flower simulation, config: num_rounds=20, no round_timeout
+2024-04-22 12:05:47,229	INFO worker.py:1621 -- Started a local Ray instance.
+[92mINFO [0m:      Flower VCE: Ray initialized with resources: {'GPU': 2.0, 'object_store_memory': 67567691366.0, 'memory': 147657946522.0, 'node:__internal_head__': 1.0, 'CPU': 80.0, 'accelerator_type:V100': 1.0, 'node:172.16.10.220': 1.0}
+[92mINFO [0m:      Optimize your simulation with Flower VCE: https://flower.ai/docs/framework/how-to-run-simulations.html
+[92mINFO [0m:      Flower VCE: Resources for each Virtual Client: {'num_cpus': 4, 'num_gpus': 0.2}
+[92mINFO [0m:      Flower VCE: Creating VirtualClientEngineActorPool with 10 actors
+[92mINFO [0m:      [INIT]
+[92mINFO [0m:      Requesting initial parameters from one random client
+[2m[36m(ClientAppActor pid=2434850)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:242: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+[2m[36m(ClientAppActor pid=2434850)[0m   interpolation: int = Image.BILINEAR,
+[2m[36m(ClientAppActor pid=2434850)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:288: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+[2m[36m(ClientAppActor pid=2434850)[0m   interpolation: int = Image.NEAREST,
+[2m[36m(ClientAppActor pid=2434850)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:321: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+[2m[36m(ClientAppActor pid=2434850)[0m   interpolation: int = Image.BICUBIC,
+[92mINFO [0m:      Received initial parameters from one random client
+[92mINFO [0m:      Evaluating initial global parameters
+[92mINFO [0m:      initial parameters (loss, other metrics): 162.85411143302917, {'accuracy': 0.17482241515390687, 'auc': 0.5299495868359438}
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 1]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[2m[36m(ClientAppActor pid=2434843)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:242: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+[2m[36m(ClientAppActor pid=2434843)[0m   interpolation: int = Image.BILINEAR,
+[2m[36m(ClientAppActor pid=2434843)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:288: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+[2m[36m(ClientAppActor pid=2434843)[0m   interpolation: int = Image.NEAREST,
+[2m[36m(ClientAppActor pid=2434843)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:321: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+[2m[36m(ClientAppActor pid=2434843)[0m   interpolation: int = Image.BICUBIC,
+[2m[36m(ClientAppActor pid=2434847)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:242: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+[2m[36m(ClientAppActor pid=2434847)[0m   interpolation: int = Image.BILINEAR,
+[2m[36m(ClientAppActor pid=2434847)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:288: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+[2m[36m(ClientAppActor pid=2434847)[0m   interpolation: int = Image.NEAREST,
+[2m[36m(ClientAppActor pid=2434847)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:321: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+[2m[36m(ClientAppActor pid=2434847)[0m   interpolation: int = Image.BICUBIC,
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[93mWARNING [0m:   No fit_metrics_aggregation_fn provided
+[92mINFO [0m:      fit progress: (1, 69.49853026866913, {'accuracy': 0.7253354380426204, 'auc': 0.92643385160907}, 1232.772760962136)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 2]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (2, 68.17181260883808, {'accuracy': 0.734017363851618, 'auc': 0.937082632633758}, 2449.8914726059884)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 3]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (3, 67.65669465065002, {'accuracy': 0.7375690607734806, 'auc': 0.9398747442967659}, 3669.31714892108)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 4]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (4, 65.52131783217192, {'accuracy': 0.7336227308602999, 'auc': 0.9417594679766464}, 4893.064055866562)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 5]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (5, 69.02193051576614, {'accuracy': 0.7300710339384373, 'auc': 0.9433065920716557}, 6051.980536145158)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 6]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (6, 65.64085298776627, {'accuracy': 0.7265193370165746, 'auc': 0.9390056293835913}, 7286.271547753364)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 7]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (7, 64.78751036524773, {'accuracy': 0.7296764009471192, 'auc': 0.9402977085290882}, 8528.12163303513)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 8]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (8, 63.41119638085365, {'accuracy': 0.7426992896606156, 'auc': 0.9439424859807964}, 9773.755061790347)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 9]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (9, 63.980028942227364, {'accuracy': 0.7280978689818469, 'auc': 0.9408299210849747}, 11017.164862414822)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 10]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (10, 63.4887083619833, {'accuracy': 0.7415153906866614, 'auc': 0.941205019260752}, 12268.192392835394)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 11]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (11, 68.30268435180187, {'accuracy': 0.7363851617995264, 'auc': 0.9420669200467416}, 13495.20572356414)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 12]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (12, 65.05513809621334, {'accuracy': 0.7426992896606156, 'auc': 0.9390568250303446}, 14946.65921335388)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 13]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (13, 62.84399728477001, {'accuracy': 0.739147592738753, 'auc': 0.9413030535605156}, 16384.435300614685)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 14]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (14, 66.52938036620617, {'accuracy': 0.7363851617995264, 'auc': 0.9428716466621221}, 17808.58000110835)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 15]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (15, 63.97597527503967, {'accuracy': 0.7324388318863457, 'auc': 0.9429828280928463}, 19225.775562847964)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 16]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (16, 64.49137543141842, {'accuracy': 0.7316495659037096, 'auc': 0.9412916341999267}, 20467.59054988809)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 17]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (17, 65.42885935306549, {'accuracy': 0.7273086029992107, 'auc': 0.9402821327218143}, 21662.55882734526)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 18]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (18, 64.42699161171913, {'accuracy': 0.7379636937647988, 'auc': 0.9420876317977471}, 22872.34375792183)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 19]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (19, 66.35419897735119, {'accuracy': 0.7186266771902131, 'auc': 0.9409475673245085}, 24073.086921337992)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 20]
+[92mINFO [0m:      configure_fit: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_fit: received 5 results and 0 failures
+[92mINFO [0m:      fit progress: (20, 68.95278340578079, {'accuracy': 0.7328334648776638, 'auc': 0.9425357935044151}, 25288.494378956966)
+[92mINFO [0m:      configure_evaluate: strategy sampled 5 clients (out of 5)
+[92mINFO [0m:      aggregate_evaluate: received 0 results and 5 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [SUMMARY]
+[92mINFO [0m:      Run finished 20 rounds in 25291.00s
+[92mINFO [0m:      History (loss, centralized):
+[92mINFO [0m:      	('\tround 0: 162.85411143302917\n'
+[92mINFO [0m:      	 '\tround 1: 69.49853026866913\n'
+[92mINFO [0m:      	 '\tround 2: 68.17181260883808\n'
+[92mINFO [0m:      	 '\tround 3: 67.65669465065002\n'
+[92mINFO [0m:      	 '\tround 4: 65.52131783217192\n'
+[92mINFO [0m:      	 '\tround 5: 69.02193051576614\n'
+[92mINFO [0m:      	 '\tround 6: 65.64085298776627\n'
+[92mINFO [0m:      	 '\tround 7: 64.78751036524773\n'
+[92mINFO [0m:      	 '\tround 8: 63.41119638085365\n'
+[92mINFO [0m:      	 '\tround 9: 63.980028942227364\n'
+[92mINFO [0m:      	 '\tround 10: 63.4887083619833\n'
+[92mINFO [0m:      	 '\tround 11: 68.30268435180187\n'
+[92mINFO [0m:      	 '\tround 12: 65.05513809621334\n'
+[92mINFO [0m:      	 '\tround 13: 62.84399728477001\n'
+[92mINFO [0m:      	 '\tround 14: 66.52938036620617\n'
+[92mINFO [0m:      	 '\tround 15: 63.97597527503967\n'
+[92mINFO [0m:      	 '\tround 16: 64.49137543141842\n'
+[92mINFO [0m:      	 '\tround 17: 65.42885935306549\n'
+[92mINFO [0m:      	 '\tround 18: 64.42699161171913\n'
+[92mINFO [0m:      	 '\tround 19: 66.35419897735119\n'
+[92mINFO [0m:      	 '\tround 20: 68.95278340578079\n')History (metrics, centralized):
+[92mINFO [0m:      	{'accuracy': [(0, 0.17482241515390687),
+[92mINFO [0m:      	              (1, 0.7253354380426204),
+[92mINFO [0m:      	              (2, 0.734017363851618),
+[92mINFO [0m:      	              (3, 0.7375690607734806),
+[92mINFO [0m:      	              (4, 0.7336227308602999),
+[92mINFO [0m:      	              (5, 0.7300710339384373),
+[92mINFO [0m:      	              (6, 0.7265193370165746),
+[92mINFO [0m:      	              (7, 0.7296764009471192),
+[92mINFO [0m:      	              (8, 0.7426992896606156),
+[92mINFO [0m:      	              (9, 0.7280978689818469),
+[92mINFO [0m:      	              (10, 0.7415153906866614),
+[92mINFO [0m:      	              (11, 0.7363851617995264),
+[92mINFO [0m:      	              (12, 0.7426992896606156),
+[92mINFO [0m:      	              (13, 0.739147592738753),
+[92mINFO [0m:      	              (14, 0.7363851617995264),
+[92mINFO [0m:      	              (15, 0.7324388318863457),
+[92mINFO [0m:      	              (16, 0.7316495659037096),
+[92mINFO [0m:      	              (17, 0.7273086029992107),
+[92mINFO [0m:      	              (18, 0.7379636937647988),
+[92mINFO [0m:      	              (19, 0.7186266771902131),
+[92mINFO [0m:      	              (20, 0.7328334648776638)],
+[92mINFO [0m:      	 'auc': [(0, 0.5299495868359438),
+[92mINFO [0m:      	         (1, 0.92643385160907),
+[92mINFO [0m:      	         (2, 0.937082632633758),
+[92mINFO [0m:      	         (3, 0.9398747442967659),
+[92mINFO [0m:      	         (4, 0.9417594679766464),
+[92mINFO [0m:      	         (5, 0.9433065920716557),
+[92mINFO [0m:      	         (6, 0.9390056293835913),
+[92mINFO [0m:      	         (7, 0.9402977085290882),
+[92mINFO [0m:      	         (8, 0.9439424859807964),
+[92mINFO [0m:      	         (9, 0.9408299210849747),
+[92mINFO [0m:      	         (10, 0.941205019260752),
+[92mINFO [0m:      	         (11, 0.9420669200467416),
+[92mINFO [0m:      	         (12, 0.9390568250303446),
+[92mINFO [0m:      	         (13, 0.9413030535605156),
+[92mINFO [0m:      	         (14, 0.9428716466621221),
+[92mINFO [0m:      	         (15, 0.9429828280928463),
+[92mINFO [0m:      	         (16, 0.9412916341999267),
+[92mINFO [0m:      	         (17, 0.9402821327218143),
+[92mINFO [0m:      	         (18, 0.9420876317977471),
+[92mINFO [0m:      	         (19, 0.9409475673245085),
+[92mINFO [0m:      	         (20, 0.9425357935044151)]}
+[92mINFO [0m:      
+[2m[36m(ClientAppActor pid=2434844)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:242: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[2m[36m(ClientAppActor pid=2434844)[0m   interpolation: int = Image.BILINEAR,[32m [repeated 2x across cluster][0m
+[2m[36m(ClientAppActor pid=2434844)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:288: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.[32m [repeated 2x across cluster][0m
+[2m[36m(ClientAppActor pid=2434844)[0m   interpolation: int = Image.NEAREST,[32m [repeated 2x across cluster][0m
+[2m[36m(ClientAppActor pid=2434844)[0m /raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torchvision/transforms/_functional_pil.py:321: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.[32m [repeated 2x across cluster][0m
+[2m[36m(ClientAppActor pid=2434844)[0m   interpolation: int = Image.BICUBIC,[32m [repeated 2x across cluster][0m
