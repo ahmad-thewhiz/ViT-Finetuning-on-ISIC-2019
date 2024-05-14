@@ -1,0 +1,1461 @@
+nohup: ignoring input
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/opacus/privacy_engine.py:95: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  warnings.warn(
+05/14/2024 09:56:38:DEBUG:Opened insecure gRPC connection (no certificates were passed)
+05/14/2024 09:56:38:DEBUG:ChannelConnectivity.IDLE
+05/14/2024 09:56:38:DEBUG:ChannelConnectivity.CONNECTING
+05/14/2024 09:56:38:DEBUG:ChannelConnectivity.READY
+[92mINFO [0m:      
+05/14/2024 09:57:38:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 09:57:38:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message dd998193-9d83-46d2-838f-d63a2f8a4021
+05/14/2024 09:57:38:INFO:Received: evaluate message dd998193-9d83-46d2-838f-d63a2f8a4021
+[92mINFO [0m:      Sent reply
+05/14/2024 09:59:15:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 09:59:18:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 09:59:18:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message fa18797d-e81f-4be0-9aa3-a284db8829a9
+05/14/2024 09:59:18:INFO:Received: train message fa18797d-e81f-4be0-9aa3-a284db8829a9
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:01:56:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:02:10:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:02:10:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 6e94a058-12f2-40c5-a631-0d0f91df0267
+05/14/2024 10:02:10:INFO:Received: evaluate message 6e94a058-12f2-40c5-a631-0d0f91df0267
+[92mINFO [0m:      Sent reply
+05/14/2024 10:03:35:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:03:39:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:03:39:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 7a9fea3e-da10-491e-b645-f4b44df15e75
+05/14/2024 10:03:39:INFO:Received: train message 7a9fea3e-da10-491e-b645-f4b44df15e75
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:06:09:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:06:20:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:06:20:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 7b97077b-8cc5-42e3-be0c-b6ac95b2a7fd
+05/14/2024 10:06:20:INFO:Received: evaluate message 7b97077b-8cc5-42e3-be0c-b6ac95b2a7fd
+[92mINFO [0m:      Sent reply
+05/14/2024 10:08:01:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:08:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:08:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 6f008fcf-8325-42dc-98b4-56d58894f32f
+05/14/2024 10:08:06:INFO:Received: train message 6f008fcf-8325-42dc-98b4-56d58894f32f
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:09:57:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:10:04:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:10:04:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 74f3af82-0d9e-4b7c-903f-8330e68ae635
+05/14/2024 10:10:04:INFO:Received: evaluate message 74f3af82-0d9e-4b7c-903f-8330e68ae635
+[92mINFO [0m:      Sent reply
+05/14/2024 10:11:04:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:11:10:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:11:10:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 0762af96-41f8-496c-889d-e1a233b7547e
+05/14/2024 10:11:10:INFO:Received: train message 0762af96-41f8-496c-889d-e1a233b7547e
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:12:26:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:12:34:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:12:34:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 380f0c37-cd7a-4f84-ae4d-5128733cd276
+05/14/2024 10:12:34:INFO:Received: evaluate message 380f0c37-cd7a-4f84-ae4d-5128733cd276
+[92mINFO [0m:      Sent reply
+05/14/2024 10:13:37:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:13:44:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:13:44:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 06b30242-2ded-4825-8a25-53af5e2a3a16
+05/14/2024 10:13:44:INFO:Received: train message 06b30242-2ded-4825-8a25-53af5e2a3a16
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:15:00:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:15:07:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:15:07:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 6d1d375f-17ea-4d5e-9975-297e9c43494a
+05/14/2024 10:15:07:INFO:Received: evaluate message 6d1d375f-17ea-4d5e-9975-297e9c43494a
+[92mINFO [0m:      Sent reply
+05/14/2024 10:16:06:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:16:09:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:16:09:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 8293410b-23bc-4b67-bfc5-6fc61551537a
+05/14/2024 10:16:09:INFO:Received: train message 8293410b-23bc-4b67-bfc5-6fc61551537a
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:17:29:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:17:38:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:17:38:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 319f123a-e738-4185-8ad9-f9158b4415b2
+05/14/2024 10:17:38:INFO:Received: evaluate message 319f123a-e738-4185-8ad9-f9158b4415b2
+[92mINFO [0m:      Sent reply
+05/14/2024 10:18:43:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:18:48:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:18:48:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 99f234c1-b0b1-46ad-9062-84582580f6d9
+05/14/2024 10:18:48:INFO:Received: train message 99f234c1-b0b1-46ad-9062-84582580f6d9
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:20:05:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:20:11:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:20:11:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message ae2a0c1a-3668-4475-a405-e55a54c0b640
+05/14/2024 10:20:11:INFO:Received: evaluate message ae2a0c1a-3668-4475-a405-e55a54c0b640
+[92mINFO [0m:      Sent reply
+05/14/2024 10:21:08:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:21:13:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:21:13:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message a234356d-8a4a-450e-be0e-9c66243e040b
+05/14/2024 10:21:13:INFO:Received: train message a234356d-8a4a-450e-be0e-9c66243e040b
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:22:32:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:22:40:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:22:40:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 71c4598e-c4ac-4260-878e-5b6e5151e085
+05/14/2024 10:22:40:INFO:Received: evaluate message 71c4598e-c4ac-4260-878e-5b6e5151e085
+[92mINFO [0m:      Sent reply
+05/14/2024 10:23:36:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:23:41:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:23:41:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 9ae53ba6-ace3-430e-9b0a-af967b124a6d
+05/14/2024 10:23:41:INFO:Received: train message 9ae53ba6-ace3-430e-9b0a-af967b124a6d
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:24:58:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:25:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:25:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message f1e36a97-105a-4acb-ab19-45cd63408845
+05/14/2024 10:25:03:INFO:Received: evaluate message f1e36a97-105a-4acb-ab19-45cd63408845
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:04:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:26:12:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:26:12:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 77a27e3a-a171-4854-b0ed-45fdd6756bab
+05/14/2024 10:26:12:INFO:Received: train message 77a27e3a-a171-4854-b0ed-45fdd6756bab
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:27:28:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:27:33:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:27:33:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message a007f5a7-87e7-4844-8f69-6e88f2960dbd
+05/14/2024 10:27:33:INFO:Received: evaluate message a007f5a7-87e7-4844-8f69-6e88f2960dbd
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:34:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:28:41:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:28:41:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 30c1f114-840e-4a7f-b569-64ab75ee7956
+05/14/2024 10:28:41:INFO:Received: train message 30c1f114-840e-4a7f-b569-64ab75ee7956
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:29:58:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:30:05:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:30:05:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message d3a6c30f-76ce-4207-a731-3f0b592e358c
+05/14/2024 10:30:05:INFO:Received: evaluate message d3a6c30f-76ce-4207-a731-3f0b592e358c
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:05:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:31:09:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:31:09:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 6c2cccb1-6468-440b-891a-25413979e355
+05/14/2024 10:31:09:INFO:Received: train message 6c2cccb1-6468-440b-891a-25413979e355
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:32:28:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:32:36:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:32:36:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 215dd688-fffc-4e6a-91f1-8a7c1a73ff6b
+05/14/2024 10:32:36:INFO:Received: evaluate message 215dd688-fffc-4e6a-91f1-8a7c1a73ff6b
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:37:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:33:41:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:33:41:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 2b6846e2-fde8-444d-991e-9c3a58db0611
+05/14/2024 10:33:41:INFO:Received: train message 2b6846e2-fde8-444d-991e-9c3a58db0611
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:34:58:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:35:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:35:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 58f3151d-5be1-41cf-a09a-914ec7451093
+05/14/2024 10:35:03:INFO:Received: evaluate message 58f3151d-5be1-41cf-a09a-914ec7451093
+[92mINFO [0m:      Sent reply
+05/14/2024 10:35:55:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:36:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:36:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message d077a933-02ad-4c5f-a55c-321d75ae587e
+05/14/2024 10:36:03:INFO:Received: train message d077a933-02ad-4c5f-a55c-321d75ae587e
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:37:21:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:37:28:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:37:28:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 0cc66bc3-b48a-44c8-bd89-2a6a03d08dab
+05/14/2024 10:37:28:INFO:Received: evaluate message 0cc66bc3-b48a-44c8-bd89-2a6a03d08dab
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:25:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:38:30:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:38:30:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 66b535c0-6ea2-4706-a12d-a875750e7cec
+05/14/2024 10:38:30:INFO:Received: train message 66b535c0-6ea2-4706-a12d-a875750e7cec
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:39:47:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:39:55:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:39:55:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 103464b5-0394-4769-ae71-4460bbe7de71
+05/14/2024 10:39:55:INFO:Received: evaluate message 103464b5-0394-4769-ae71-4460bbe7de71
+
+{'loss': [170.77978587150574], 'accuracy': [0.3395086588803866], 'auc': [0.5503425934016958]}
+
+Epsilon = 0.12
+
+{'loss': [170.77978587150574, 157.7478598356247], 'accuracy': [0.3395086588803866, 0.342327829238824], 'auc': [0.5503425934016958, 0.6105371747886178]}
+
+Epsilon = 0.17
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772]}
+
+Epsilon = 0.21
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709]}
+
+Epsilon = 0.24
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332]}
+
+Epsilon = 0.27
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811]}
+
+Epsilon = 0.30
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429]}
+
+Epsilon = 0.32
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921]}
+
+Epsilon = 0.35
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914]}
+
+Epsilon = 0.37
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925]}
+
+Epsilon = 0.39
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874]}
+
+Epsilon = 0.41
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815]}
+
+Epsilon = 0.43
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009]}
+
+Epsilon = 0.44
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902]}
+
+Epsilon = 0.46
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584, 120.53543865680695], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681, 0.5505436971405557], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902, 0.7283022215204464]}
+
+Epsilon = 0.48
+[92mINFO [0m:      Sent reply
+05/14/2024 10:40:59:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:41:01:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:41:01:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message e0eb64a2-c082-46b4-8174-72709514335c
+05/14/2024 10:41:01:INFO:Received: train message e0eb64a2-c082-46b4-8174-72709514335c
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:42:21:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:42:29:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:42:29:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 53f506b3-e04b-470b-a74a-a20b462b0501
+05/14/2024 10:42:29:INFO:Received: evaluate message 53f506b3-e04b-470b-a74a-a20b462b0501
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:30:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:43:32:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:43:32:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message d49f23c7-1be6-436d-8705-47565f195e25
+05/14/2024 10:43:32:INFO:Received: train message d49f23c7-1be6-436d-8705-47565f195e25
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:44:52:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:44:59:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:44:59:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 583398b4-0995-4098-8da1-e9150b52d5de
+05/14/2024 10:44:59:INFO:Received: evaluate message 583398b4-0995-4098-8da1-e9150b52d5de
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:03:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:46:09:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:46:09:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 55d63962-ef83-49df-9cb6-855972484a3c
+05/14/2024 10:46:09:INFO:Received: train message 55d63962-ef83-49df-9cb6-855972484a3c
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:47:26:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:47:32:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:47:32:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message b0d0a264-a42f-4039-8ecb-96591b726eca
+05/14/2024 10:47:32:INFO:Received: evaluate message b0d0a264-a42f-4039-8ecb-96591b726eca
+[92mINFO [0m:      Sent reply
+05/14/2024 10:48:37:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:48:46:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:48:46:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 18060437-6c1d-47fa-b77c-fa848debe073
+05/14/2024 10:48:46:INFO:Received: train message 18060437-6c1d-47fa-b77c-fa848debe073
+/raid/home/dgxuser16/NTL/mccarthy/madhav/venv/lib/python3.8/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+[92mINFO [0m:      Sent reply
+05/14/2024 10:50:03:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:50:11:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:50:11:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 7b713128-2524-4f50-a184-a4da0f5f198f
+05/14/2024 10:50:11:INFO:Received: evaluate message 7b713128-2524-4f50-a184-a4da0f5f198f
+[92mINFO [0m:      Sent reply
+05/14/2024 10:51:12:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:51:13:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:51:13:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: reconnect message e72bed21-7ac8-4944-8b44-923f3e94b742
+05/14/2024 10:51:13:INFO:Received: reconnect message e72bed21-7ac8-4944-8b44-923f3e94b742
+05/14/2024 10:51:13:DEBUG:gRPC channel closed
+[92mINFO [0m:      Disconnect and shut down
+05/14/2024 10:51:13:INFO:Disconnect and shut down
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584, 120.53543865680695, 118.70373904705048], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681, 0.5505436971405557, 0.554168344744261], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902, 0.7283022215204464, 0.7309194787220571]}
+
+Epsilon = 0.50
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584, 120.53543865680695, 118.70373904705048, 119.1549402475357], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681, 0.5505436971405557, 0.554168344744261, 0.5537656061216271], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902, 0.7283022215204464, 0.7309194787220571, 0.7342832656046104]}
+
+Epsilon = 0.51
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584, 120.53543865680695, 118.70373904705048, 119.1549402475357, 118.78220224380493], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681, 0.5505436971405557, 0.554168344744261, 0.5537656061216271, 0.558598469593234], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902, 0.7283022215204464, 0.7309194787220571, 0.7342832656046104, 0.7363857871252307]}
+
+Epsilon = 0.53
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584, 120.53543865680695, 118.70373904705048, 119.1549402475357, 118.78220224380493, 120.06558215618134], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681, 0.5505436971405557, 0.554168344744261, 0.5537656061216271, 0.558598469593234, 0.5565847764800644], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902, 0.7283022215204464, 0.7309194787220571, 0.7342832656046104, 0.7363857871252307, 0.7390603529836849]}
+
+Epsilon = 0.54
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584, 120.53543865680695, 118.70373904705048, 119.1549402475357, 118.78220224380493, 120.06558215618134, 117.80481028556824], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681, 0.5505436971405557, 0.554168344744261, 0.5537656061216271, 0.558598469593234, 0.5565847764800644, 0.5618203785743052], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902, 0.7283022215204464, 0.7309194787220571, 0.7342832656046104, 0.7363857871252307, 0.7390603529836849, 0.7422980290133792]}
+
+
+
+{'loss': [170.77978587150574, 157.7478598356247, 144.9880485534668, 135.034041762352, 133.09475111961365, 128.5694364309311, 125.88505470752716, 123.13613605499268, 122.41335439682007, 121.98281764984131, 120.65208756923676, 119.77072310447693, 120.93608975410461, 120.39522325992584, 120.53543865680695, 118.70373904705048, 119.1549402475357, 118.78220224380493, 120.06558215618134, 117.80481028556824], 'accuracy': [0.3395086588803866, 0.342327829238824, 0.3797825211437777, 0.42690293999194523, 0.4510672573499799, 0.4752315747080145, 0.4893274265002014, 0.5106725734997987, 0.5203383004430124, 0.5291985501409585, 0.5356423681031011, 0.5412807088199758, 0.540475231574708, 0.544905356423681, 0.5505436971405557, 0.554168344744261, 0.5537656061216271, 0.558598469593234, 0.5565847764800644, 0.5618203785743052], 'auc': [0.5503425934016958, 0.6105371747886178, 0.6426705374675772, 0.6625109723217709, 0.6718346685722332, 0.6821029608971811, 0.6901619863666429, 0.6988232155479921, 0.7058776337940914, 0.7105231335090925, 0.7180582179993874, 0.7230274788877815, 0.7227382892055009, 0.723690666383902, 0.7283022215204464, 0.7309194787220571, 0.7342832656046104, 0.7363857871252307, 0.7390603529836849, 0.7422980290133792]}
+-df305fca06ee
+[92mINFO [0m:      
+05/14/2024 10:23:40:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:23:40:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 3720efb4-3330-4361-9cf9-b7e8e96b511b
+05/14/2024 10:23:40:INFO:Received: train message 3720efb4-3330-4361-9cf9-b7e8e96b511b
+[92mINFO [0m:      
+05/14/2024 10:23:41:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:23:41:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 41e3662e-7ba7-4b69-80e7-cadbf1050bff
+05/14/2024 10:23:41:INFO:Received: train message 41e3662e-7ba7-4b69-80e7-cadbf1050bff
+[92mINFO [0m:      
+05/14/2024 10:23:42:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:23:42:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 049b17bf-56a4-4a90-b441-f24632b5880b
+05/14/2024 10:23:42:INFO:Received: train message 049b17bf-56a4-4a90-b441-f24632b5880b
+[92mINFO [0m:      Sent reply
+05/14/2024 10:23:47:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:23:58:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:24:19:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:24:24:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:24:30:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:25:04:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:25:04:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message e2f24fda-b103-4e2e-8f98-dce72d734950
+05/14/2024 10:25:04:INFO:Received: evaluate message e2f24fda-b103-4e2e-8f98-dce72d734950
+[92mINFO [0m:      
+05/14/2024 10:25:05:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:25:05:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message ae172480-ee9d-4610-a12f-159bef0f84c3
+05/14/2024 10:25:05:INFO:Received: evaluate message ae172480-ee9d-4610-a12f-159bef0f84c3
+[92mINFO [0m:      
+05/14/2024 10:25:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:25:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message e58c7d01-7a8f-4df1-a60b-fd08f89f3871
+05/14/2024 10:25:06:INFO:Received: evaluate message e58c7d01-7a8f-4df1-a60b-fd08f89f3871
+[92mINFO [0m:      
+05/14/2024 10:25:07:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:25:07:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 90d8c02e-1647-4666-be16-1bd47d3a307b
+05/14/2024 10:25:07:INFO:Received: evaluate message 90d8c02e-1647-4666-be16-1bd47d3a307b
+[92mINFO [0m:      
+05/14/2024 10:25:07:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:25:07:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 2b517724-f980-4d35-86eb-100b7c3d5fec
+05/14/2024 10:25:07:INFO:Received: evaluate message 2b517724-f980-4d35-86eb-100b7c3d5fec
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:00:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:04:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:05:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:06:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:06:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:26:08:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:26:08:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 2b780e26-d075-4738-bbc4-60979805949e
+05/14/2024 10:26:08:INFO:Received: train message 2b780e26-d075-4738-bbc4-60979805949e
+[92mINFO [0m:      
+05/14/2024 10:26:09:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:26:09:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message bbbcd7d2-5b24-4ce4-b21e-2e2f403965cc
+05/14/2024 10:26:09:INFO:Received: train message bbbcd7d2-5b24-4ce4-b21e-2e2f403965cc
+[92mINFO [0m:      
+05/14/2024 10:26:10:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:26:10:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 93c6c746-fcc7-46b7-9855-ab8acc512aa5
+05/14/2024 10:26:10:INFO:Received: train message 93c6c746-fcc7-46b7-9855-ab8acc512aa5
+[92mINFO [0m:      
+05/14/2024 10:26:11:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:26:11:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 98e518fc-4e7b-4022-a2a8-4c8a7acc916f
+05/14/2024 10:26:11:INFO:Received: train message 98e518fc-4e7b-4022-a2a8-4c8a7acc916f
+[92mINFO [0m:      
+05/14/2024 10:26:12:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:26:12:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 6b5ccfad-a7ab-4c60-82c4-5821544e35d9
+05/14/2024 10:26:12:INFO:Received: train message 6b5ccfad-a7ab-4c60-82c4-5821544e35d9
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:23:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:27:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:47:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:58:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:26:57:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:27:33:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:27:33:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 66a9a006-7964-46c0-8cc0-91658cb87365
+05/14/2024 10:27:33:INFO:Received: evaluate message 66a9a006-7964-46c0-8cc0-91658cb87365
+[92mINFO [0m:      
+05/14/2024 10:27:34:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:27:34:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 02410a7f-4f55-4c37-96aa-071158a6c606
+05/14/2024 10:27:34:INFO:Received: evaluate message 02410a7f-4f55-4c37-96aa-071158a6c606
+[92mINFO [0m:      
+05/14/2024 10:27:35:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:27:35:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 818fced4-43da-4217-8bce-f5ea3ea95ad9
+05/14/2024 10:27:35:INFO:Received: evaluate message 818fced4-43da-4217-8bce-f5ea3ea95ad9
+[92mINFO [0m:      
+05/14/2024 10:27:36:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:27:36:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message ba1e29e4-16da-428b-ad05-6bdd2516b43f
+05/14/2024 10:27:36:INFO:Received: evaluate message ba1e29e4-16da-428b-ad05-6bdd2516b43f
+[92mINFO [0m:      
+05/14/2024 10:27:36:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:27:36:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message bfb2abd8-6902-4d76-b873-1553f4f3cac9
+05/14/2024 10:27:36:INFO:Received: evaluate message bfb2abd8-6902-4d76-b873-1553f4f3cac9
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:31:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:33:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:33:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:35:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:36:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:28:38:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:28:38:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 56baa49c-8934-4057-8804-9b1197179d5d
+05/14/2024 10:28:38:INFO:Received: train message 56baa49c-8934-4057-8804-9b1197179d5d
+[92mINFO [0m:      
+05/14/2024 10:28:39:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:28:39:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 3349f107-f390-429e-a638-c7695e5774d9
+05/14/2024 10:28:39:INFO:Received: train message 3349f107-f390-429e-a638-c7695e5774d9
+[92mINFO [0m:      
+05/14/2024 10:28:39:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:28:39:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 3108efb6-30b5-4d87-b9c4-c10a13a4b6cc
+05/14/2024 10:28:39:INFO:Received: train message 3108efb6-30b5-4d87-b9c4-c10a13a4b6cc
+[92mINFO [0m:      
+05/14/2024 10:28:40:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:28:40:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 51c66384-2209-4766-9ffd-09e1be69f940
+05/14/2024 10:28:40:INFO:Received: train message 51c66384-2209-4766-9ffd-09e1be69f940
+[92mINFO [0m:      
+05/14/2024 10:28:42:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:28:42:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 5ca10394-764e-4160-910d-852c60f15635
+05/14/2024 10:28:42:INFO:Received: train message 5ca10394-764e-4160-910d-852c60f15635
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:44:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:28:56:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:29:18:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:29:27:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:29:29:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:30:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:30:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message de114aa8-a7a0-4dad-9cbb-d87f53b1fe78
+05/14/2024 10:30:03:INFO:Received: evaluate message de114aa8-a7a0-4dad-9cbb-d87f53b1fe78
+[92mINFO [0m:      
+05/14/2024 10:30:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:30:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message b253fdaf-b684-4ca7-b850-d37dbf901dff
+05/14/2024 10:30:03:INFO:Received: evaluate message b253fdaf-b684-4ca7-b850-d37dbf901dff
+[92mINFO [0m:      
+05/14/2024 10:30:05:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:30:05:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message a18a7fd9-bf5f-4723-87f2-c53b4379503f
+05/14/2024 10:30:05:INFO:Received: evaluate message a18a7fd9-bf5f-4723-87f2-c53b4379503f
+[92mINFO [0m:      
+05/14/2024 10:30:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:30:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 80c16f48-1855-4e9e-b44e-cd45c13782c5
+05/14/2024 10:30:06:INFO:Received: evaluate message 80c16f48-1855-4e9e-b44e-cd45c13782c5
+[92mINFO [0m:      
+05/14/2024 10:30:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:30:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 2158848c-456a-47d5-9d00-7c52e00fe3c7
+05/14/2024 10:30:06:INFO:Received: evaluate message 2158848c-456a-47d5-9d00-7c52e00fe3c7
+[92mINFO [0m:      Sent reply
+05/14/2024 10:30:54:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:30:56:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:06:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:06:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:06:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:31:08:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:31:08:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message dadb872f-9f5b-4344-adeb-00003fd06546
+05/14/2024 10:31:08:INFO:Received: train message dadb872f-9f5b-4344-adeb-00003fd06546
+[92mINFO [0m:      
+05/14/2024 10:31:09:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:31:09:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 1bf1822e-0b21-4f1b-a7e5-602214db125a
+05/14/2024 10:31:09:INFO:Received: train message 1bf1822e-0b21-4f1b-a7e5-602214db125a
+[92mINFO [0m:      
+05/14/2024 10:31:10:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:31:10:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 50e6feb1-ce09-45d5-89ed-bc5f3e1375aa
+05/14/2024 10:31:10:INFO:Received: train message 50e6feb1-ce09-45d5-89ed-bc5f3e1375aa
+[92mINFO [0m:      
+05/14/2024 10:31:11:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:31:11:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message e58da33d-5c3b-4b7a-9edb-97477da606be
+05/14/2024 10:31:11:INFO:Received: train message e58da33d-5c3b-4b7a-9edb-97477da606be
+[92mINFO [0m:      
+05/14/2024 10:31:11:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:31:11:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message fb0d115e-07b3-4347-8516-9a04fdcd4f72
+05/14/2024 10:31:11:INFO:Received: train message fb0d115e-07b3-4347-8516-9a04fdcd4f72
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:23:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:28:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:49:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:58:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:31:59:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:32:34:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:32:34:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message c5415ee8-18f2-44d5-b5e6-fafd124c9e1b
+05/14/2024 10:32:34:INFO:Received: evaluate message c5415ee8-18f2-44d5-b5e6-fafd124c9e1b
+[92mINFO [0m:      
+05/14/2024 10:32:35:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:32:35:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 6aef0c4f-9b9a-47b8-82b6-33e87d9faf61
+05/14/2024 10:32:35:INFO:Received: evaluate message 6aef0c4f-9b9a-47b8-82b6-33e87d9faf61
+[92mINFO [0m:      
+05/14/2024 10:32:36:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:32:36:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 6010626f-08ca-4eb4-bc90-14a2e677b1d5
+05/14/2024 10:32:36:INFO:Received: evaluate message 6010626f-08ca-4eb4-bc90-14a2e677b1d5
+[92mINFO [0m:      
+05/14/2024 10:32:36:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:32:36:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 3824a295-1eda-445c-b68e-3073435afc0a
+05/14/2024 10:32:36:INFO:Received: evaluate message 3824a295-1eda-445c-b68e-3073435afc0a
+[92mINFO [0m:      
+05/14/2024 10:32:37:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:32:37:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 4b4baefa-a1d6-4f82-87e8-dd025234f69c
+05/14/2024 10:32:37:INFO:Received: evaluate message 4b4baefa-a1d6-4f82-87e8-dd025234f69c
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:24:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:31:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:36:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:36:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:37:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:33:39:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:33:39:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message e3bea776-b65f-422f-b50b-12fa1826fac9
+05/14/2024 10:33:39:INFO:Received: train message e3bea776-b65f-422f-b50b-12fa1826fac9
+[92mINFO [0m:      
+05/14/2024 10:33:40:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:33:40:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 80c25b4e-77fc-4ea2-918a-1716a6dc823f
+05/14/2024 10:33:40:INFO:Received: train message 80c25b4e-77fc-4ea2-918a-1716a6dc823f
+[92mINFO [0m:      
+05/14/2024 10:33:42:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:33:42:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 31e407f4-362e-4ac4-88fa-e6723bd9b4ee
+05/14/2024 10:33:42:INFO:Received: train message 31e407f4-362e-4ac4-88fa-e6723bd9b4ee
+[92mINFO [0m:      
+05/14/2024 10:33:42:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:33:42:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 67d2c3c1-15cb-4564-b899-8a2f3d39a3c6
+05/14/2024 10:33:42:INFO:Received: train message 67d2c3c1-15cb-4564-b899-8a2f3d39a3c6
+[92mINFO [0m:      
+05/14/2024 10:33:43:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:33:43:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 1911737e-e04e-4092-8c8e-200082ef0844
+05/14/2024 10:33:43:INFO:Received: train message 1911737e-e04e-4092-8c8e-200082ef0844
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:50:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:33:52:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:34:18:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:34:29:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:34:30:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:35:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:35:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 85f12053-8a40-445b-a122-e6283c11534c
+05/14/2024 10:35:03:INFO:Received: evaluate message 85f12053-8a40-445b-a122-e6283c11534c
+[92mINFO [0m:      
+05/14/2024 10:35:04:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:35:04:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message f0ef9873-d820-466a-b868-16e8ba195761
+05/14/2024 10:35:04:INFO:Received: evaluate message f0ef9873-d820-466a-b868-16e8ba195761
+[92mINFO [0m:      
+05/14/2024 10:35:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:35:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 2c91ad8a-7f84-44d5-aa6b-cf3e54690a5c
+05/14/2024 10:35:06:INFO:Received: evaluate message 2c91ad8a-7f84-44d5-aa6b-cf3e54690a5c
+[92mINFO [0m:      
+05/14/2024 10:35:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:35:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message d143dea1-bb72-41d9-b55c-308e028224c2
+05/14/2024 10:35:06:INFO:Received: evaluate message d143dea1-bb72-41d9-b55c-308e028224c2
+[92mINFO [0m:      
+05/14/2024 10:35:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:35:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 84dd0808-4a57-41f3-9c85-fdfa06b72fd7
+05/14/2024 10:35:06:INFO:Received: evaluate message 84dd0808-4a57-41f3-9c85-fdfa06b72fd7
+[92mINFO [0m:      Sent reply
+05/14/2024 10:35:56:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:35:57:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:35:58:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:35:59:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:35:59:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:36:01:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:36:01:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 08c7ef8c-278d-4cd0-91f4-3f9790cb347b
+05/14/2024 10:36:01:INFO:Received: train message 08c7ef8c-278d-4cd0-91f4-3f9790cb347b
+[92mINFO [0m:      
+05/14/2024 10:36:01:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:36:01:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 973a6d18-4734-4c4b-919d-afb8d685ce03
+05/14/2024 10:36:01:INFO:Received: train message 973a6d18-4734-4c4b-919d-afb8d685ce03
+[92mINFO [0m:      
+05/14/2024 10:36:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:36:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message c81c7905-c785-4d61-b5f5-10ebbd91bada
+05/14/2024 10:36:03:INFO:Received: train message c81c7905-c785-4d61-b5f5-10ebbd91bada
+[92mINFO [0m:      
+05/14/2024 10:36:04:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:36:04:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 46bfa8ba-afd7-4b84-87ab-5899ec376489
+05/14/2024 10:36:04:INFO:Received: train message 46bfa8ba-afd7-4b84-87ab-5899ec376489
+[92mINFO [0m:      
+05/14/2024 10:36:05:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:36:05:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 24a1f04a-6a74-4f1e-8cd3-73796ca2a5c6
+05/14/2024 10:36:05:INFO:Received: train message 24a1f04a-6a74-4f1e-8cd3-73796ca2a5c6
+[92mINFO [0m:      Sent reply
+05/14/2024 10:36:13:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:36:15:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:36:36:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:36:49:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:36:54:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:37:26:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:37:26:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message bc727a39-0d6a-495a-a561-acc8eb0fe44c
+05/14/2024 10:37:26:INFO:Received: evaluate message bc727a39-0d6a-495a-a561-acc8eb0fe44c
+[92mINFO [0m:      
+05/14/2024 10:37:26:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:37:26:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message bde3c0ed-dc41-4616-96d5-00b42ffb60e3
+05/14/2024 10:37:26:INFO:Received: evaluate message bde3c0ed-dc41-4616-96d5-00b42ffb60e3
+[92mINFO [0m:      
+05/14/2024 10:37:27:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:37:27:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 09442920-484e-4c79-a243-7abb3c5db263
+05/14/2024 10:37:27:INFO:Received: evaluate message 09442920-484e-4c79-a243-7abb3c5db263
+[92mINFO [0m:      
+05/14/2024 10:37:29:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:37:29:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 815e87de-b75e-47dd-a443-8d502acec81c
+05/14/2024 10:37:29:INFO:Received: evaluate message 815e87de-b75e-47dd-a443-8d502acec81c
+[92mINFO [0m:      
+05/14/2024 10:37:29:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:37:29:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message d5630fb5-6fde-4d43-8445-851c204cc6c9
+05/14/2024 10:37:29:INFO:Received: evaluate message d5630fb5-6fde-4d43-8445-851c204cc6c9
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:22:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:22:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:23:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:24:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:25:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:38:27:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:38:27:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message bb69f60e-7a9c-4095-a73e-c38065761b7d
+05/14/2024 10:38:27:INFO:Received: train message bb69f60e-7a9c-4095-a73e-c38065761b7d
+[92mINFO [0m:      
+05/14/2024 10:38:28:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:38:28:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 3d87657d-14c1-4ccd-9174-e20251454906
+05/14/2024 10:38:28:INFO:Received: train message 3d87657d-14c1-4ccd-9174-e20251454906
+[92mINFO [0m:      
+05/14/2024 10:38:29:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:38:29:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message b1d3f45f-d0c5-4693-b27a-c20a07b50e03
+05/14/2024 10:38:29:INFO:Received: train message b1d3f45f-d0c5-4693-b27a-c20a07b50e03
+[92mINFO [0m:      
+05/14/2024 10:38:29:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:38:29:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 8c809dee-6c6a-49ce-8d2b-c49be08fca57
+05/14/2024 10:38:29:INFO:Received: train message 8c809dee-6c6a-49ce-8d2b-c49be08fca57
+[92mINFO [0m:      
+05/14/2024 10:38:30:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:38:30:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 9e576852-2b5d-4ea6-b8ee-fde7881f76e1
+05/14/2024 10:38:30:INFO:Received: train message 9e576852-2b5d-4ea6-b8ee-fde7881f76e1
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:38:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:38:47:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:39:08:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:39:15:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:39:17:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:39:52:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:39:52:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message e6d441fa-e4e4-44b9-8494-5ef15b1ce6ca
+05/14/2024 10:39:52:INFO:Received: evaluate message e6d441fa-e4e4-44b9-8494-5ef15b1ce6ca
+[92mINFO [0m:      
+05/14/2024 10:39:52:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:39:52:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message f1e1b521-90cf-4982-a66a-2db04fe71935
+05/14/2024 10:39:52:INFO:Received: evaluate message f1e1b521-90cf-4982-a66a-2db04fe71935
+[92mINFO [0m:      
+05/14/2024 10:39:53:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:39:53:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message bd471ac0-be3f-4db2-876d-1d0e9d446f7c
+05/14/2024 10:39:53:INFO:Received: evaluate message bd471ac0-be3f-4db2-876d-1d0e9d446f7c
+[92mINFO [0m:      
+05/14/2024 10:39:55:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:39:55:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 5bf8785d-ea69-4507-8cec-d4814e93d23e
+05/14/2024 10:39:55:INFO:Received: evaluate message 5bf8785d-ea69-4507-8cec-d4814e93d23e
+[92mINFO [0m:      
+05/14/2024 10:39:55:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:39:55:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message d3b1522c-6adb-4ac5-b278-3189a838e47c
+05/14/2024 10:39:55:INFO:Received: evaluate message d3b1522c-6adb-4ac5-b278-3189a838e47c
+[92mINFO [0m:      Sent reply
+05/14/2024 10:40:45:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:40:52:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:40:56:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:40:58:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:40:59:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:41:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:41:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 9ef414cf-b5d8-478c-9368-cf9d2782b1ec
+05/14/2024 10:41:03:INFO:Received: train message 9ef414cf-b5d8-478c-9368-cf9d2782b1ec
+[92mINFO [0m:      
+05/14/2024 10:41:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:41:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 94469327-a57b-4698-b71a-2e7e2978d335
+05/14/2024 10:41:03:INFO:Received: train message 94469327-a57b-4698-b71a-2e7e2978d335
+[92mINFO [0m:      
+05/14/2024 10:41:03:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:41:03:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message cb429fac-089c-4825-b520-19edc7d4b1be
+05/14/2024 10:41:03:INFO:Received: train message cb429fac-089c-4825-b520-19edc7d4b1be
+[92mINFO [0m:      
+05/14/2024 10:41:04:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:41:04:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 37d83bc0-fce6-4096-a4fa-5ae4b7c34146
+05/14/2024 10:41:04:INFO:Received: train message 37d83bc0-fce6-4096-a4fa-5ae4b7c34146
+[92mINFO [0m:      
+05/14/2024 10:41:04:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:41:04:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 968f0e90-9802-486d-8b67-8c4d804f653b
+05/14/2024 10:41:04:INFO:Received: train message 968f0e90-9802-486d-8b67-8c4d804f653b
+[92mINFO [0m:      Sent reply
+05/14/2024 10:41:10:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:41:20:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:41:42:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:41:53:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:41:56:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:42:26:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:42:26:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 51e1adaa-4245-4e6b-8b13-c7010723af79
+05/14/2024 10:42:26:INFO:Received: evaluate message 51e1adaa-4245-4e6b-8b13-c7010723af79
+[92mINFO [0m:      
+05/14/2024 10:42:27:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:42:27:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 3b339516-dbfa-4413-9065-066dcc5e1ada
+05/14/2024 10:42:27:INFO:Received: evaluate message 3b339516-dbfa-4413-9065-066dcc5e1ada
+[92mINFO [0m:      
+05/14/2024 10:42:28:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:42:28:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message dbd6341c-f428-4b80-8fbd-e21ed89ddead
+05/14/2024 10:42:28:INFO:Received: evaluate message dbd6341c-f428-4b80-8fbd-e21ed89ddead
+[92mINFO [0m:      
+05/14/2024 10:42:29:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:42:29:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message e15c5c26-7621-41a6-a119-35ed7bb67a78
+05/14/2024 10:42:29:INFO:Received: evaluate message e15c5c26-7621-41a6-a119-35ed7bb67a78
+[92mINFO [0m:      
+05/14/2024 10:42:29:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:42:29:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 488cd8a3-bda5-4bd0-809f-0e7f8b794188
+05/14/2024 10:42:29:INFO:Received: evaluate message 488cd8a3-bda5-4bd0-809f-0e7f8b794188
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:15:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:19:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:27:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:29:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:30:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:43:32:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:43:32:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message dcf57fea-b0ce-4fdd-9ed6-882ec0a14c5b
+05/14/2024 10:43:32:INFO:Received: train message dcf57fea-b0ce-4fdd-9ed6-882ec0a14c5b
+[92mINFO [0m:      
+05/14/2024 10:43:34:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:43:34:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 05c4876a-7e5e-4a0c-9859-273876cc1c16
+05/14/2024 10:43:34:INFO:Received: train message 05c4876a-7e5e-4a0c-9859-273876cc1c16
+[92mINFO [0m:      
+05/14/2024 10:43:34:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:43:34:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message b7591632-7ad7-4fa8-9a4d-178c43c9567a
+05/14/2024 10:43:34:INFO:Received: train message b7591632-7ad7-4fa8-9a4d-178c43c9567a
+[92mINFO [0m:      
+05/14/2024 10:43:35:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:43:35:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 2f4c98b8-a219-43c2-b4da-a8afc3f82982
+05/14/2024 10:43:35:INFO:Received: train message 2f4c98b8-a219-43c2-b4da-a8afc3f82982
+[92mINFO [0m:      
+05/14/2024 10:43:35:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:43:35:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message f02b0e02-c024-4921-b780-d9867afe0df0
+05/14/2024 10:43:35:INFO:Received: train message f02b0e02-c024-4921-b780-d9867afe0df0
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:43:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:43:53:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:44:08:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:44:21:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:44:26:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:44:57:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:44:57:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message a395ddc9-2446-45fa-9787-54f8d8d3f73d
+05/14/2024 10:44:57:INFO:Received: evaluate message a395ddc9-2446-45fa-9787-54f8d8d3f73d
+[92mINFO [0m:      
+05/14/2024 10:44:58:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:44:58:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 32cbea4b-83b8-4ba4-811c-8b59c0d828fe
+05/14/2024 10:44:58:INFO:Received: evaluate message 32cbea4b-83b8-4ba4-811c-8b59c0d828fe
+[92mINFO [0m:      
+05/14/2024 10:44:59:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:44:59:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message cd23d148-4898-4ab8-bac2-c3bf57c502d0
+05/14/2024 10:44:59:INFO:Received: evaluate message cd23d148-4898-4ab8-bac2-c3bf57c502d0
+[92mINFO [0m:      
+05/14/2024 10:45:01:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:45:01:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message a910cf6f-0fc2-43f6-ad41-befdcc8f28eb
+05/14/2024 10:45:01:INFO:Received: evaluate message a910cf6f-0fc2-43f6-ad41-befdcc8f28eb
+[92mINFO [0m:      
+05/14/2024 10:45:01:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:45:01:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message a91b724e-74b1-4518-a5b5-bb20164f34a4
+05/14/2024 10:45:01:INFO:Received: evaluate message a91b724e-74b1-4518-a5b5-bb20164f34a4
+[92mINFO [0m:      Sent reply
+05/14/2024 10:45:57:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:45:58:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:01:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:01:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:03:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:46:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:46:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 5d8397cf-9015-4509-966c-a843d95c7c8b
+05/14/2024 10:46:06:INFO:Received: train message 5d8397cf-9015-4509-966c-a843d95c7c8b
+[92mINFO [0m:      
+05/14/2024 10:46:06:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:46:06:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 82c32b61-120e-4f2d-b47d-dc1b392151c9
+05/14/2024 10:46:06:INFO:Received: train message 82c32b61-120e-4f2d-b47d-dc1b392151c9
+[92mINFO [0m:      
+05/14/2024 10:46:07:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:46:07:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 017137e5-49a4-4bed-b610-8ee90d093e72
+05/14/2024 10:46:07:INFO:Received: train message 017137e5-49a4-4bed-b610-8ee90d093e72
+[92mINFO [0m:      
+05/14/2024 10:46:07:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:46:07:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 60bbb301-81ea-4f2f-94ea-048a8977c991
+05/14/2024 10:46:07:INFO:Received: train message 60bbb301-81ea-4f2f-94ea-048a8977c991
+[92mINFO [0m:      
+05/14/2024 10:46:08:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:46:08:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message f292edd2-f965-4ce4-8605-20496f2d7187
+05/14/2024 10:46:08:INFO:Received: train message f292edd2-f965-4ce4-8605-20496f2d7187
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:11:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:24:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:44:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:53:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:46:58:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:47:32:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:47:32:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 14890246-4e72-493a-afd0-9ab66554c988
+05/14/2024 10:47:32:INFO:Received: evaluate message 14890246-4e72-493a-afd0-9ab66554c988
+[92mINFO [0m:      
+05/14/2024 10:47:33:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:47:33:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 33fbfef5-64db-4518-8031-5b0e7234932a
+05/14/2024 10:47:33:INFO:Received: evaluate message 33fbfef5-64db-4518-8031-5b0e7234932a
+[92mINFO [0m:      
+05/14/2024 10:47:34:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:47:34:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 424dc0e4-081c-4692-8b49-7ebf9613096c
+05/14/2024 10:47:34:INFO:Received: evaluate message 424dc0e4-081c-4692-8b49-7ebf9613096c
+[92mINFO [0m:      
+05/14/2024 10:47:35:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:47:35:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 1747fde7-f5a0-4ea3-89a4-e4f19cd79fdd
+05/14/2024 10:47:35:INFO:Received: evaluate message 1747fde7-f5a0-4ea3-89a4-e4f19cd79fdd
+[92mINFO [0m:      
+05/14/2024 10:47:35:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:47:35:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message d4564a17-cd3f-4ac7-9ef2-bdd258b26f05
+05/14/2024 10:47:35:INFO:Received: evaluate message d4564a17-cd3f-4ac7-9ef2-bdd258b26f05
+[92mINFO [0m:      Sent reply
+05/14/2024 10:48:27:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:48:34:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:48:41:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:48:41:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:48:41:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:48:43:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:48:43:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 51297d38-4210-4ecb-9d1d-4bdaf020c30a
+05/14/2024 10:48:43:INFO:Received: train message 51297d38-4210-4ecb-9d1d-4bdaf020c30a
+[92mINFO [0m:      
+05/14/2024 10:48:43:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:48:43:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 8ce8932f-0bc2-411c-8b31-4e88e0c748e5
+05/14/2024 10:48:43:INFO:Received: train message 8ce8932f-0bc2-411c-8b31-4e88e0c748e5
+[92mINFO [0m:      
+05/14/2024 10:48:44:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:48:44:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message 63214b40-03bd-4f62-9d27-ceff23eef70f
+05/14/2024 10:48:44:INFO:Received: train message 63214b40-03bd-4f62-9d27-ceff23eef70f
+[92mINFO [0m:      
+05/14/2024 10:48:45:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:48:45:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message f062bb16-c303-419a-8203-a2ea3bd2fad8
+05/14/2024 10:48:45:INFO:Received: train message f062bb16-c303-419a-8203-a2ea3bd2fad8
+[92mINFO [0m:      
+05/14/2024 10:48:46:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:48:46:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: train message a85c8e38-7cc0-4099-9351-261b0c9a165f
+05/14/2024 10:48:46:INFO:Received: train message a85c8e38-7cc0-4099-9351-261b0c9a165f
+[92mINFO [0m:      Sent reply
+05/14/2024 10:48:56:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:49:03:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:49:18:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:49:29:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:49:35:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:50:08:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:50:08:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message d3c66b2a-61e8-4659-9829-b422fbaf789f
+05/14/2024 10:50:08:INFO:Received: evaluate message d3c66b2a-61e8-4659-9829-b422fbaf789f
+[92mINFO [0m:      
+05/14/2024 10:50:09:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:50:09:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 894f2af1-eab2-4862-bc24-8be16221ee46
+05/14/2024 10:50:09:INFO:Received: evaluate message 894f2af1-eab2-4862-bc24-8be16221ee46
+[92mINFO [0m:      
+05/14/2024 10:50:09:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:50:09:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message b8ab63bc-8997-439c-9a6f-7e5e0e8b4ba1
+05/14/2024 10:50:09:INFO:Received: evaluate message b8ab63bc-8997-439c-9a6f-7e5e0e8b4ba1
+[92mINFO [0m:      
+05/14/2024 10:50:10:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:50:10:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 5abe6d10-6aaa-41cb-9dd9-45dd2d442ec2
+05/14/2024 10:50:10:INFO:Received: evaluate message 5abe6d10-6aaa-41cb-9dd9-45dd2d442ec2
+[92mINFO [0m:      
+05/14/2024 10:50:11:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:50:11:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: evaluate message 8cc5508d-422f-4edf-8839-c612888d914d
+05/14/2024 10:50:11:INFO:Received: evaluate message 8cc5508d-422f-4edf-8839-c612888d914d
+[92mINFO [0m:      Sent reply
+05/14/2024 10:51:05:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:51:05:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:51:05:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:51:11:INFO:Sent reply
+[92mINFO [0m:      Sent reply
+05/14/2024 10:51:12:INFO:Sent reply
+[92mINFO [0m:      
+05/14/2024 10:51:13:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:51:13:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: reconnect message 83e52c8f-3f87-448e-8b3a-4d96bb197dff
+05/14/2024 10:51:13:INFO:Received: reconnect message 83e52c8f-3f87-448e-8b3a-4d96bb197dff
+[92mINFO [0m:      
+05/14/2024 10:51:13:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:51:13:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: reconnect message 45dc4f45-45ff-4ab5-b15d-d2f6e723ab77
+05/14/2024 10:51:13:INFO:Received: reconnect message 45dc4f45-45ff-4ab5-b15d-d2f6e723ab77
+[92mINFO [0m:      
+05/14/2024 10:51:13:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:51:13:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: reconnect message 2caaf152-97b7-4bcc-a855-e5d73e4d17df
+05/14/2024 10:51:13:INFO:Received: reconnect message 2caaf152-97b7-4bcc-a855-e5d73e4d17df
+[92mINFO [0m:      
+05/14/2024 10:51:13:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:51:13:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: reconnect message dc08184e-9b2b-433c-9eae-6e85e5c1831b
+05/14/2024 10:51:13:INFO:Received: reconnect message dc08184e-9b2b-433c-9eae-6e85e5c1831b
+[92mINFO [0m:      
+05/14/2024 10:51:13:INFO:
+[92mINFO [0m:      [RUN 0, ROUND ]
+05/14/2024 10:51:13:INFO:[RUN 0, ROUND ]
+[92mINFO [0m:      Received: reconnect message c9c609fb-1738-4097-9683-e06b2693d9ff
+05/14/2024 10:51:13:INFO:Received: reconnect message c9c609fb-1738-4097-9683-e06b2693d9ff
+05/14/2024 10:51:13:DEBUG:gRPC channel closed
+[92mINFO [0m:      Disconnect and shut down
+05/14/2024 10:51:13:INFO:Disconnect and shut down
+Epsilon = 2.58
+Epsilon = 3.24
+Epsilon = 3.77
+Epsilon = 4.23
+Epsilon = 4.65
+Epsilon = 5.03
+Epsilon = 5.39
+Epsilon = 5.72
+Epsilon = 6.05
+Epsilon = 6.35
+Epsilon = 6.65
+Epsilon = 6.94
+Epsilon = 7.22
+Epsilon = 7.49
+Epsilon = 7.75
+Epsilon = 8.01
+Epsilon = 8.26
+Epsilon = 8.51
+Epsilon = 8.75
+Epsilon = 8.98
+05/14/2024 10:51:13:DEBUG:gRPC channel closed
+[92mINFO [0m:      Disconnect and shut down
+05/14/2024 10:51:13:INFO:Disconnect and shut down
+Epsilon = 0.49
+Epsilon = 0.66
+Epsilon = 0.79
+Epsilon = 0.90
+Epsilon = 1.00
+Epsilon = 1.09
+Epsilon = 1.18
+Epsilon = 1.26
+Epsilon = 1.33
+Epsilon = 1.41
+Epsilon = 1.48
+Epsilon = 1.54
+Epsilon = 1.61
+Epsilon = 1.67
+Epsilon = 1.73
+Epsilon = 1.79
+Epsilon = 1.85
+Epsilon = 1.90
+Epsilon = 1.96
+Epsilon = 2.01
+05/14/2024 10:51:13:DEBUG:gRPC channel closed
+[92mINFO [0m:      Disconnect and shut down
+05/14/2024 10:51:13:INFO:Disconnect and shut down
+Epsilon = 0.74
+Epsilon = 0.96
+Epsilon = 1.13
+Epsilon = 1.28
+Epsilon = 1.42
+Epsilon = 1.55
+Epsilon = 1.66
+Epsilon = 1.77
+Epsilon = 1.88
+Epsilon = 1.98
+Epsilon = 2.07
+Epsilon = 2.16
+Epsilon = 2.25
+Epsilon = 2.34
+Epsilon = 2.42
+Epsilon = 2.50
+Epsilon = 2.58
+Epsilon = 2.66
+Epsilon = 2.73
+05/14/2024 10:51:13:DEBUG:gRPC channel closed
+[92mINFO [0m:      Disconnect and shut down
+05/14/2024 10:51:13:INFO:Disconnect and shut down
+05/14/2024 10:51:13:DEBUG:gRPC channel closed
+[92mINFO [0m:      Disconnect and shut down
+05/14/2024 10:51:13:INFO:Disconnect and shut down
+Epsilon = 0.42
+Epsilon = 0.57
+Epsilon = 0.69
+Epsilon = 0.79
+Epsilon = 0.88
+Epsilon = 0.96
+Epsilon = 1.03
+Epsilon = 1.11
+Epsilon = 1.17
+Epsilon = 1.24
+Epsilon = 1.30
+Epsilon = 1.36
+Epsilon = 1.42
+Epsilon = 1.47
+Epsilon = 1.52
+Epsilon = 1.58
+Epsilon = 1.63
+Epsilon = 1.68
+Epsilon = 1.72
+Epsilon = 1.77
+Epsilon = 1.72
+Epsilon = 2.15
+Epsilon = 2.50
+Epsilon = 2.80
+Epsilon = 3.07
+Epsilon = 3.32
+Epsilon = 3.56
+Epsilon = 3.78
+Epsilon = 3.99
+Epsilon = 4.20
+Epsilon = 4.39
+Epsilon = 4.58
+Epsilon = 4.76
+Epsilon = 4.94
+Epsilon = 5.11
+Epsilon = 5.28
+Epsilon = 5.44
+Epsilon = 5.60
+Epsilon = 5.76
+Epsilon = 5.91
