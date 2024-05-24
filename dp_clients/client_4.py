@@ -10,7 +10,10 @@ import numpy as np
 from plot_graphs import plot_metrics
 import os 
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '6'
+torch.manual_seed(3)
+np.random.seed(3)
+
+os.environ['CUDA_VISIBLE_DEVICES'] = '4'
 client_name = "client_4"
 if not os.path.exists(client_name):
     os.makedirs(client_name)
@@ -34,12 +37,16 @@ PRIVACY_PARAMS = {
 
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-def load_data():
-    train_dataset = [FedIsic2019(center=i, train=True) for i in range(6)]
+def save_str_to_file(string, dir: str):
+    with open(f"{dir}/log_file.txt", "w") as file:
+        file.write(string)
+
+def load_data(client_index: int):
+    train_dataset = FedIsic2019(center=client_index, train=True)
     test_dataset = FedIsic2019(train=False)
-    trainloader = DataLoader(train_dataset[3], batch_size=PARAMS["batch_size"])
+    trainloader = DataLoader(train_dataset, batch_size=PARAMS["batch_size"])
     testloader = DataLoader(test_dataset, batch_size=PARAMS["batch_size"])
-    sample_rate = PARAMS["batch_size"] / len(train_dataset[3])
+    sample_rate = PARAMS["batch_size"] / len(train_dataset)
     return trainloader, testloader, sample_rate
 
 def train(net, trainloader, privacy_engine, optimizer, epochs):
@@ -85,7 +92,7 @@ def test(net, testloader):
     return loss, accuracy, auc_score
 
 
-class FedViTDPClient(fl.client.NumPyClient):
+class FedViTDPClient4(fl.client.NumPyClient):
     def __init__(self, model, trainloader, testloader) -> None:
         super().__init__()
         optimizer = torch.optim.SGD(model.parameters(), lr=0.0001, momentum=0.9)
@@ -133,17 +140,21 @@ class FedViTDPClient(fl.client.NumPyClient):
         client_history["loss"].append(loss)
         client_history["accuracy"].append(accuracy)
         client_history["auc"].append(auc)
+        string = f"Loss: {loss:.2f}, Accuracy: {accuracy:.2f}, AUC: {auc:.2f}"
+        save_str_to_file(string, client_name)
         print(f"\n{client_history}\n")
         return float(loss), len(self.testloader), {"accuracy": float(accuracy)}
 
 # model = ViT()
 model = ViT_GPU(device=DEVICE)
 
-trainload, testloader, sample_rate = load_data()
+trainload, testloader, sample_rate = load_data(client_index=3)
+string = f"Train Dataset Size: {len(trainload)} Sample rate: {sample_rate}"
+save_str_to_file(string, client_name)
 
 fl.client.start_client(
-    server_address="127.0.0.1:8084",
-    client = FedViTDPClient(model=model, trainloader=trainload, testloader=testloader).to_client()
+    server_address="127.0.0.1:8087",
+    client = FedViTDPClient4(model=model, trainloader=trainload, testloader=testloader).to_client()
 )
 
 plot_metrics(client_history, client_name)
