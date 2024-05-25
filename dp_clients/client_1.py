@@ -127,6 +127,9 @@ class FedViTDPClient1(fl.client.NumPyClient):
             self.optimizer,
             PARAMS["local_epochs"]
         )
+        string = f"Train Dataset Size: {len(self.trainloader)} Sample rate: {sample_rate}"
+        save_str_to_file(string, client_name)
+        
         print(f"Epsilon = {epsilon:.2f}")
         return (
             self.get_parameters(config={}),
